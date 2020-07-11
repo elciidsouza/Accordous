@@ -12,7 +12,7 @@
                     <label for="email">E-mail do proprietário</label>
                     <input type="email" name="email" class="form-control" placeholder="Digite o e-mail do proprietário" v-model="newEmail" required>
 
-                    <span class="text-bold">Endereço do imóvel</span>
+                    <span class="text-bold">Endereço do imóvel</span><br>
 
                     <label for="rua">Rua</label>
                     <input type="text" name="rua" class="form-control" placeholder="Digite a rua" v-model="newRua" required>

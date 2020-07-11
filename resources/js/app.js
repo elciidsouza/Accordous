@@ -29,6 +29,8 @@ new Vue({
             axios.delete(urlDeleteImoveis).then(response => {
                 this.getImoveis();
                 toastr.success('Registro excluído com sucesso');
+            }).catch(error => {
+                toastr.error('O imóvel já foi contratado, não pode ser excluído.');
             });
         },
 
